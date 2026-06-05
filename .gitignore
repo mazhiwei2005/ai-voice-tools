@@ -1,0 +1,48 @@
+# Large files - exclude from git
+*.7z
+*.zip
+*.rar
+
+# Model files (too large for git)
+*.pth
+*.index
+*.bin
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Runtime directories
+GPT-SoVITS-Complete/GPT-SoVITS-v3lora-20250228/runtime/
+GPT-SoVITS-Complete/GPT-SoVITS-v3lora-20250228/GPT_weights/
+GPT-SoVITS-Complete/GPT-SoVITS-v3lora-20250228/SoVITS_weights/
+GPT-SoVITS-Complete/GPT-SoVITS-v3lora-20250228/logs/
+GPT-SoVITS-Complete/GPT-SoVITS-v3lora-20250228/output/
+GPT-SoVITS-Complete/GPT-SoVITS-v3lora-20250228/TEMP/
+RVC/logs/
+RVC/assets/weights/*.pth
+RVC/assets/weights/*.index
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary
+*.tmp
+*.log
+*.bak
